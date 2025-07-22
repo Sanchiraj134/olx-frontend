@@ -1,0 +1,29 @@
+.product-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.product-details-image {
+  width: 400px;
+  max-width: 90%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.product-details-info {
+  max-width: 600px;
+  text-align: center;
+}
+
+.product-details-info h2 {
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 1.5rem;
+  color: #28a745;
+  margin-bottom: 1rem;
+}
